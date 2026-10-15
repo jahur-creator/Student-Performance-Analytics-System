@@ -39,9 +39,9 @@ def get_class_summary(results):
         "fail_count": int((results["Result"] == "Fail").sum()),
         "subject_averages": subject_averages,
         "lowest_students": results[
-    results["Average_Marks"] == results["Average_Marks"].min()
-][["Student_ID", "Name", "Average_Marks"]],
-"best_subject": subject_averages.idxmax(),
+            results["Average_Marks"] == results["Average_Marks"].min()
+        ][["Student_ID", "Name", "Average_Marks","Grade", "Result"]],
+        "best_subject": subject_averages.idxmax(),
         "top_performers": results[
             results["Average_Marks"] == results["Average_Marks"].max()
         ][["Student_ID", "Name", "Average_Marks", "Grade", "Result"]],
