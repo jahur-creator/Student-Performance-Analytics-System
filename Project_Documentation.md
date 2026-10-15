@@ -5,9 +5,13 @@
 ## 1. Student Details
 
 Student Name: Jahur Mahammadshafik Jamadar
+
 Course: Python with AI
+
 Institute: EWB Courses
+
 Project Title: Student Performance Analytics System
+
 GitHub Repository: https://github.com/jahur-creator/Student-Performance-Analytics-System
 
 ## 2. Project Objective
