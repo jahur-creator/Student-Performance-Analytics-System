@@ -79,7 +79,15 @@ The program ran successfully on the 20-record dataset and produced all required 
 The project met the assignment goals of loading student data into Pandas, calculating totals and averages, assigning grades, determining pass/fail status, and summarizing class performance.
 
 ## 9. Challenges & Learning
-[Write this section in your own words. Describe the problems you faced, how you solved them, and what you learned about Python functions, loops, NumPy, Pandas, and data analysis.]
+Challenges and solutions
+- `print()` vs `return`: My functions showed results with `print()`, so the values couldn't be passed to other functions. I changed them to `return` the results.
+- **Loop indexing errors:** I got `IndexError` and skipped items because of how `range()` works. I fixed it by tracing the loop values and iterating over items directly where possible.
+- **Lists vs NumPy arrays:** I expected NumPy to behave like Python lists. I learned that NumPy arrays hold one data type and are faster for numerical calculations.
+- **DataFrame selection:** I got `KeyError` when selecting several columns. I learned that `df[['Name', 'Maths_Marks']]` needs double brackets, and that `.iloc[]` selects rows by position.
+
+**Key learnings**
+- **Functions and loops:** Functions avoid repeated code, and loops with `if-elif-else` process each student's marks and apply the rules.
+- **NumPy and Pandas:** Pandas loads the CSV into a table, and filtering with conditions such as `df[df['Average_Marks'] > 80]` selects matching rows without nested loops.
 
 ## 10. GitHub Repository
 Repository URL: https://github.com/jahur-creator/Student-Performance-Analytics-System
