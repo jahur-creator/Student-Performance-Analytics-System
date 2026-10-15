@@ -26,7 +26,7 @@ The system also identifies the highest-performing and lowest-performing students
 - Pandas
 
 ## 4. Dataset Description
-The dataset is stored in `students.csv` and contains 20 sample student records (sample data, not real students). The columns are Student_ID, Name, Department, Computer_Marks, Maths_Marks, English_Marks, and Attendance_Percent.
+The dataset is stored in `students.csv` and contains 20 student records . The columns are Student_ID, Name, Department, Computer_Marks, Maths_Marks, English_Marks, and Attendance_Percent.
 
 ## 5. Implementation
 1. Pandas loads `students.csv` into a DataFrame.
@@ -67,13 +67,13 @@ A student passes if they score at least 35 marks in every subject. Otherwise, th
 Run `python main.py` and add screenshots of:
 - The student results table.
 - The class summary.
-- The subject-wise average marks, best subject, and top-performing student(s).
+- The subject-wise average marks, best subject,lowest-performing student(s) and top-performing student(s).
 
 ![Student results](screenshots/student-results.png)
 ![Class summary](screenshots/class-summary.png)
 
 ## 8. Final Outcome
-The program ran successfully on the 20-record dataset and produced all required outputs:
+The program run successfully on the 20-record dataset and produced all required outputs:
 - Class average marks: 67.87
 - Highest student average: 96.0 (Diya Chavan, grade A)
 - Lowest student average: 34.0 (Omkar Sawant, grade F)
